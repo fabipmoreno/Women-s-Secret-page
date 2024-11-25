@@ -1,0 +1,61 @@
+#main-inicio-sesion {
+  margin: 100px 0 122px 0; 
+}
+
+h1 {
+  margin: 10px;
+}
+
+.formulario {
+  width: 60%;
+  margin: auto;
+}
+
+input {
+  display: block;
+  margin: 20px auto;
+  height: 2.5rem;
+  width: 40%;
+  border: 2px solid black;
+  padding-left: 10px;
+}
+
+.boton {
+  font-family: 'Poppins', 'Sono', sans-serif;
+  width: 30%;
+  color: white;
+  font-size: 0.95rem;
+  padding: 5px 25px;
+  margin: 20px auto;
+  background: black;
+}
+
+form p {
+  font-size: 0.8em;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#quiero-crear-cuenta {
+  margin-bottom: 20px;
+}
+
+#quiero-crear-cuenta:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+#quiero-crear-cuenta:active {
+  opacity: 0.5;
+}
+
+#footer-registrar {
+  margin-top: 32px;
+}
+
+#msg {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}

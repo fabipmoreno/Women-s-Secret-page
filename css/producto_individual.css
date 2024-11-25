@@ -1,0 +1,77 @@
+h4 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.producto {
+  margin: 20px auto;
+  width: 43%;
+  height: 570px;
+  display: flex;
+}
+
+.producto img {
+  height: 100%;
+}
+
+.info-producto {
+  padding-left: 15px;
+}
+
+.info-producto p,
+.info-producto h4 {
+  font-family: "Poppins", "Sono", sans-serif;
+}
+
+.info-producto p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+#tallas {
+  margin: 25px 0;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  display: block;
+  margin: 5px 0;
+}
+
+select {
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px solid black;
+}
+
+#descripcion p {
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-family: "Sono", sans-serif;
+  text-align: left;
+}
+
+.boton {
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  width: 90%;
+  display: block;
+  margin: 20px 0;
+  background: black;
+}
+
+.boton a {
+  background-color: black;
+  color: #ebd8ea;
+  font-family: "Poppins", "Sono", sans-serif;
+} 
+
+footer {
+  margin-top: 30px;
+}

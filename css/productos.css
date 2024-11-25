@@ -1,0 +1,225 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+h4 {
+  font-weight: normal;
+}
+
+.producto {
+  margin: 20px;
+  height: 570px;
+  position: relative;
+}
+
+.info-producto {
+  position: absolute;
+  bottom: 0;
+}
+
+.info-producto p,
+.info-producto h4 {
+  font-family: "Poppins", "Sono", sans-serif;
+}
+
+.info-producto p {
+  font-weight: bold;
+}
+
+.info-producto h4:hover {
+  transition: opacity 0.3s;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.info-producto h4:active {
+  opacity: 0.5;
+}
+
+.uno {
+  background: url(../html/img/prendas/m1.jpg) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.dos {
+  background: url(../html/img/prendas/m2.jpg) no-repeat;
+  background-size: contain;
+}
+
+.tres {
+  background: url(../html/img/prendas/m3.jpg) no-repeat;
+  background-size: contain;
+}
+
+.cuatro {
+  background: url(../html/img/prendas/m4.jpg) no-repeat;
+  background-size: contain;
+}
+
+.cinco {
+  background: url(../html/img/prendas/m5.jpg) no-repeat;
+  background-size: contain;
+}
+
+.seis {
+  background: url(../html/img/prendas/m6.jpg) no-repeat;
+  background-size: contain;
+}
+
+.siete {
+  background: url(../html/img/prendas/m7.jpg) no-repeat;
+  background-size: contain;
+}
+
+.ocho {
+  background: url(../html/img/prendas/m8.jpg) no-repeat;
+  background-size: contain;
+}
+
+.nueve {
+  background: url(../html/img/prendas/m9.jpg) no-repeat;
+  background-size: contain;
+}
+
+.diez {
+  background: url(../html/img/prendas/m10.jpg) no-repeat;
+  background-size: contain;
+}
+
+.once {
+  background: url(../html/img/prendas/m11.jpg) no-repeat;
+  background-size: contain;
+}
+
+.doce {
+  background: url(../html/img/prendas/m12.jpg) no-repeat;
+  background-size: contain;
+}
+
+.trece {
+  background: url(../html/img/ninos/n1.jpg) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.catorce {
+  background: url(../html/img/ninos/n2.jpg) no-repeat;
+  background-size: contain;
+}
+
+.quince {
+  background: url(../html/img/ninos/n3.jpg) no-repeat;
+  background-size: contain;
+}
+
+.dieciseis {
+  background: url(../html/img/ninos/n4.jpg) no-repeat;
+  background-size: contain;
+}
+
+.diecisiete {
+  background: url(../html/img/ninos/n5.jpg) no-repeat;
+  background-size: contain;
+}
+
+.dieciocho {
+  background: url(../html/img/ninos/n6.jpg) no-repeat;
+  background-size: contain;
+}
+
+.diecinueve {
+  background: url(../html/img/ninos/n7.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veinte {
+  background: url(../html/img/ninos/n8.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veintiuno {
+  background: url(../html/img/ninos/n9.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veintidos {
+  background: url(../html/img/ninos/n10.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veintitres {
+  background: url(../html/img/ninos/n11.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veinticuatro {
+  background: url(../html/img/ninos/n12.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veinticinco {
+  background: url(../html/img/cosmeticos/c1.jpg) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.veintiseis {
+  background: url(../html/img/cosmeticos/c2.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veintisiete {
+  background: url(../html/img/cosmeticos/c3.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veintiocho {
+  background: url(../html/img/cosmeticos/c4.jpg) no-repeat;
+  background-size: contain;
+}
+
+.veintinueve {
+  background: url(../html/img/cosmeticos/c5.jpg) no-repeat;
+  background-size: contain;
+}
+
+.treinta {
+  background: url(../html/img/cosmeticos/c6.jpg) no-repeat;
+  background-size: contain;
+}
+
+.treintayuno {
+  background: url(../html/img/cosmeticos/c7.jpg) no-repeat;
+  background-size: contain;
+}
+
+.treintaydos {
+  background: url(../html/img/cosmeticos/c8.jpg) no-repeat;
+  background-size: contain;
+}
+
+.treintaytres {
+  background: url(../html/img/cosmeticos/c9.jpg) no-repeat;
+  background-size: contain;
+}
+
+.treintaycuatro {
+  background: url(../html/img/cosmeticos/c10.jpg) no-repeat;
+  background-size: contain;
+}
+
+.treintaycinco {
+  background: url(../html/img/cosmeticos/c11.jpg) no-repeat;
+  background-size: contain;
+}
+
+.treintayseis {
+  background: url(../html/img/cosmeticos/c12.jpg) no-repeat;
+  background-size: contain;
+}
+
+footer {
+  margin-top: 30px;
+}

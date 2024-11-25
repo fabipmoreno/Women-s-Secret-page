@@ -1,0 +1,11 @@
+.foto {
+  height: 336px;
+  overflow: hidden;
+  background: url(../html/img/index/bg2.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+#wip {
+  text-align: center;
+}

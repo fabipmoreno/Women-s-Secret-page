@@ -1,0 +1,148 @@
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Sono:wght@300;400&display=swap');
+
+* {
+  font-family: "Sono", "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #e8cfe6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 5px 10px rgba(201, 176, 201, 0.708);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#titulo {
+  font-size: 32px;
+  font-weight: bold;
+  display: inline;
+  cursor: pointer;
+}
+
+
+.foto-collage:hover {
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav-links a :hover{
+  background-color: rgb(228, 11, 44); 
+}
+
+header button {
+  border: none;
+}
+
+header img {
+  width: 2em;
+}
+
+.foto-principal {
+  height: 100%;
+  overflow: hidden;
+  height: 500px;
+}
+
+.foto-principal img {
+  width: 100%;
+  position: relative;
+  top: -150px;
+}
+
+h1 {
+  font-family: "Poppins", "Sono", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+.texto-conocenos {
+  margin: auto;
+  padding-bottom: 36px;
+  width: 65%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.foto-collage {
+  width: 100%;
+}
+
+.botones {
+  margin: 15px 0;
+}
+
+.boton {
+  border: none;
+  font-size: 20px;
+  padding: 5px 25px;
+  display: block;
+  margin: 25.18px auto 30px auto;
+  background: black;
+}
+
+@media only screen and (max-width: 1150px) {
+  #titulo {
+    font-size: 1.4rem;
+  }
+
+  .nav-links {
+    font-size: 0.8rem;
+  }
+
+  header img {
+    width: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .nav-links {
+    display: none;
+  }
+
+  .collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dis {
+    display: none;
+  }
+
+  .dis {
+    width: 10px;
+  }
+}
+
